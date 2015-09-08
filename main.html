@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>UN TITRE!!!! vraiment super!</title>
+    <title>Carousel photo</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="carouselPhotoScript.js"></script>
 </head>
-<body>
+<body onload="carouselWithTimer()">
+<div id="container">
+    <img id="img" src="Images/1.jpg">
+    <div id="arrowDivLeft"><img onClick="carousel(-1)" class="leftArrrow" src="Images/fleche2.gif"></div>
+    <div id="arrowDivRigth"><img onClick="carousel(1)" class="rightArrow" src="Images/fleche.gif"></div>
+    <div id="bulletDiv">
+        <div><img src=""></div>
+        <div><img src=""></div>
+        <div><img src=""></div>
+        <div><img src=""></div>
+        <div><img src=""></div>
+        <div><img src=""></div>
+        <div><img src=""></div>
+        <div><img src=""></div>
+    </div>
 
+</div>
 </body>
 </html>
