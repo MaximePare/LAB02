@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Carousel photo</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="carouselPhotoScript.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="carouselPhotoScript.js"></script>
+    <title>Caroussel photo</title>
 </head>
-<body onload="carouselWithTimer()">
-<div id="container">
-    <img id="img" src="Images/1.jpg">
-    <div id="arrowDivLeft"><img onClick="carousel(-1)" class="leftArrrow" src="Images/fleche2.gif"></div>
-    <div id="arrowDivRigth"><img onClick="carousel(1)" class="rightArrow" src="Images/fleche.gif"></div>
-    <div id="bulletDiv">
-        <div class="bullet"><img onclick="bulletChange(1)" id="bulletImg1" src="Images/blueBullet.png"></div>
-        <div class="bullet"><img onclick="bulletChange(2)" id="bulletImg2" src="Images/whiteBullet.png"></div>
-        <div class="bullet"><img onclick="bulletChange(3)" id="bulletImg3" src="Images/whiteBullet.png"></div>
-        <div class="bullet"><img onclick="bulletChange(4)" id="bulletImg4" src="Images/whiteBullet.png"></div>
-        <div class="bullet"><img onclick="bulletChange(5)" id="bulletImg5" src="Images/whiteBullet.png"></div>
-        <div class="bullet"><img onclick="bulletChange(6)" id="bulletImg6" src="Images/whiteBullet.png"></div>
-        <div class="bullet"><img onclick="bulletChange(7)" id="bulletImg7" src="Images/whiteBullet.png"></div>
+<body onload = "changeImage()">
+<div class="container">
+
+    <div class="bouton">
+        <img id="buttonLeft"  onclick="flipImage('gauche')" src="http://xtrait1.uqam.ca/a10/EDM5050-21/montrealkitsch/images/Fleche-gauche.gif"/>
     </div>
 
+    <img id="framePhoto" src=""/>
+
+    <div class="bouton">
+        <img id="buttonRight" onclick="flipImage('droite')" src="http://xtrait1.uqam.ca/a10/EDM5050-21/montrealkitsch/images/Fleche-droite.gif"/>
+    </div>
 </div>
+<div id="bouttonCirculaire">
+    <img id="0" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(0)">
+    <img id="1" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(1)">
+    <img id="2" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(2)">
+    <img id="3" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(3)">
+    <img id="4" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(4)">
+    <img id="5" class="petiteBouton" src="http://l.rgbimg.com/cache1qH4LR/users/b/ba/ba1969/600/n4yMWAi.jpg" onclick="changeAvecBullet(5)">
+
+</div>
+
 </body>
 </html>

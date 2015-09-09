@@ -1,98 +1,39 @@
-#container{
-    width: 100%;
-    height: 20em;
-    position: relative;
+#framePhoto{
+    width:600px;
+    height: 400px;
+    background-color: black;
+    border: groove;
 }
-#img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
+
+.bouton{
+    display: inline-block;
+    vertical-align: 150px;
+    cursor: pointer;
 }
-#arrowDivLeft{
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+
+.container{
+    text-align: center;
+    padding-top: 100px;
 }
-#arrowDivRigth{
-    height: 100%;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+
+#buttonLeft{
+    width:100px;
+    height: 100px;
 }
-.leftArrrow{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top:40%;
-    left: 0px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
+
+#buttonRight{
+    width:100px;
+    height: 100px;
 }
-.rightArrow{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top:40%;
-    right: 0px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
+
+#bouttonCirculaire{
+    display: inline-block;
+    padding-left: 625px;
 }
-.leftArrrow:hover{
-    opacity: 1;
-    filter: alpha(opacity=100);
+
+.petiteBouton{
+    width:15px;
+    height: 15px;
+    cursor: pointer;
 }
-.rightArrow:hover{
-    opacity: 1;
-    filter: alpha(opacity=100);
-}
-#bulletDiv{
-    position: absolute;
-    bottom: 0px;
-    margin-left: 45%;
-}
-.bullet{
-    display: inline;
-}
-#bulletImg1{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
-#bulletImg2{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
-#bulletImg3{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
-#bulletImg4{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
-#bulletImg5{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
-#bulletImg6{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
-#bulletImg7{
-    width: 12px;
-    height: 12px;
-    opacity: 0.6;
-    filter: alpha(opacity=10);
-}
+
