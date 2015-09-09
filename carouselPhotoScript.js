@@ -29,7 +29,7 @@ function changeImage() {
     imageChanger();
 }
 
-function flipImage(direction){
+function changeAvecFleche(direction){
     allGreen();
     if (direction == "gauche"){
         if(i == 0){
